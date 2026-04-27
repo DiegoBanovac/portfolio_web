@@ -1,8 +1,8 @@
-export const navLinks  = [
-                    {label:"About me" },
-                    {label:"Skills" },
-                    {label:"Education" },
-                    {label:"Projects" },
-                    {label:"Work" },
-                    
-                ];
+export const navLinks = [
+  { label: 'About me',  id: 'about'     },
+  { label: 'Skills',    id: 'skills'    },
+  { label: 'Projects',  id: 'projects'  },
+  { label: 'Education', id: 'education' },
+  { label: 'Work',      id: 'work'      },
+  { label: 'Contact',   id: 'contact'   },
+]
