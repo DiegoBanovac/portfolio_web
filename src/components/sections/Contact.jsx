@@ -5,12 +5,22 @@ const Contact = () => (
     <p className="text-gray-400 text-lg max-w-xl mb-8 leading-relaxed">
       Have a project in mind or just want to say hi? Feel free to reach out.
     </p>
-    <a
-      href="mailto:diego.banovac10@gmail.com"
-      className="inline-block border border-gray-600 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-colors w-fit text-base"
-    >
-      diego.banovac10@gmail.com
-    </a>
+    <div className="flex flex-col sm:flex-row gap-4">
+      <a
+        href="mailto:diego.banovac10@gmail.com"
+        className="inline-block border border-gray-600 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-colors w-fit text-base"
+      >
+        diego.banovac10@gmail.com
+      </a>
+      <a
+        href="https://github.com/DiegoBanovac"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block border border-gray-600 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-colors w-fit text-base"
+      >
+        GitHub
+      </a>
+    </div>
   </section>
 )
 
