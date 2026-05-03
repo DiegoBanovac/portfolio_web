@@ -69,7 +69,7 @@ export const projects = [
     desc: "Game for kids with ADHD made for Vista ADHD center in Rijeka.",
     image: "/vista.webp",
     tech: ["Java"],
-    github: "",
+    github: "https://github.com/DiegoBanovac/kids-game",
     live: "#"
   }
 ]
