@@ -34,15 +34,15 @@ export const skills = {
 export const projects = [
   {
     title: "Fish forecast",
-    desc: "Web app  .",
+    desc: "Web app with weather,sea forecast and fish activity in the area.",
     image: "/fishforecast.png",
-    tech: ["React", "Node.js", "WeatherAPI","Tailwind"],
+    tech: ["React", "Node.js", "WeatherAPI","Tailwind","Vue"],
     github: "https://github.com/DiegoBanovac/fish-forecast-app",
     live: "https://fish-forecast-app.onrender.com"
   },
   {
     title: "Cloud Estate",
-    desc: "Short description of the project.",
+    desc: "Web and mobile app made for buying and renting estate.",
     image: "/cloudestate.png",
     tech: ["Quasar", "Vue", "Express","HeidiSQL"],
     github: "https://github.com/DiegoBanovac/Cloud_Estate_Mobile",
@@ -50,7 +50,7 @@ export const projects = [
   },
   {
     title: "Hotel Batana",
-    desc: "Short description of the project.",
+    desc: "Hotel website made while on intership in Nivago.",
     image: "/hotelbatana.png",
     tech: ["Bootstrap", "Express"],
     github: "https://github.com/DiegoBanovac/hotel-batana",
@@ -58,10 +58,18 @@ export const projects = [
   },
   {
     title: "Geo Chat",
-    desc: "Short description of the project.",
+    desc: "Chat app with a geological guessing game.",
     image: "/geochat.png",
-    tech: ["React", "Tailwind", "Express"],
+    tech: ["React", "Tailwind", "Express", "PostgreSQL"],
     github: "https://github.com/DiegoBanovac/geo-chat",
+    live: "#"
+  },
+  {
+    title: "Kids game (CURRENTLY DEVELOPING)",
+    desc: "Game for kids with ADHD made for Vista ADHD center in Rijeka.",
+    image: "/vista.webp",
+    tech: ["Java"],
+    github: "",
     live: "#"
   }
 ]

@@ -17,12 +17,12 @@ function App() {
       <AnimatedBackground />
       <NavBar />
 
-      <div id="hero" className="min-h-screen flex items-center justify-between px-16 md:px-32">
+      <div id="hero" className="min-h-screen flex flex-col items-center justify-center gap-10 px-6 sm:px-16 md:px-32 md:flex-row md:justify-between">
         <TerminalHero />
         <img
           src="/emoji.webp"
           alt=""
-          className="h-64 md:h-80 w-auto object-contain pr-50"
+          className="h-48 sm:h-64 md:h-80 w-auto object-contain md:pr-50"
         />
       </div>
 

@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex flex-col justify-center px-16 md:px-32 bg-black"
+      className="min-h-screen flex flex-col justify-center px-6 sm:px-16 md:px-32 bg-black"
     >
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-4xl md:text-5xl font-bold text-white">Projects</h2>

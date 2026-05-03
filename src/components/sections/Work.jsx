@@ -11,7 +11,7 @@ const entries = [
 const Work = () => (
   <section
     id="work"
-    className="min-h-screen flex flex-col justify-center px-16 md:px-32 bg-black"
+    className="min-h-screen flex flex-col justify-center px-6 sm:px-16 md:px-32 bg-black"
   >
     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Work</h2>
     <div className="w-16 h-0.5 bg-white/20 mb-14" />

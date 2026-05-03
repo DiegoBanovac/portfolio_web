@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col justify-center px-16 md:px-32 bg-black text-white"
+      className="min-h-screen flex flex-col justify-center px-6 sm:px-16 md:px-32 bg-black text-white"
     >
       <h2 className="text-4xl md:text-5xl font-bold mb-6">
         Skills

@@ -18,7 +18,7 @@ const entries = [
 const Education = () => (
   <section
     id="education"
-    className="min-h-screen flex flex-col justify-center px-16 md:px-32 bg-black"
+    className="min-h-screen flex flex-col justify-center px-6 sm:px-16 md:px-32 bg-black"
   >
     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
       Education
@@ -39,7 +39,7 @@ const Education = () => (
           <div key={degree} className="flex gap-8 relative">
 
             {/* DOT */}
-            <div className="relative flex-shrink-0 flex flex-col items-center" style={{ width: "2rem" }}>
+            <div className="relative shrink-0 flex flex-col items-center" style={{ width: "2rem" }}>
               <div
                 className={`w-3 h-3 rounded-full mt-1.5 ring-2 z-10 ${
                   status === "ongoing"
@@ -53,7 +53,7 @@ const Education = () => (
             <div
               className={`flex-1 rounded-2xl border p-6 transition-all duration-300 group
                 ${status === "ongoing"
-                  ? "border-white/20 bg-white/[0.04]"
+                  ? "border-white/20 bg-white/4"
                   : "border-white/10 bg-transparent"
                 }`}
             >
