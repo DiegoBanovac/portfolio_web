@@ -1,16 +1,29 @@
-# React + Vite
+# portfolio_web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my projects, skills, and background as a software engineering student.
 
-Currently, two official plugins are available:
+Live: [portfolio-web-eta-two-43.vercel.app](https://portfolio-web-eta-two-43.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+A clean, responsive portfolio built with React and Vite, deployed on Vercel. The site presents my projects, tech stack, and contact information for internship and job opportunities.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- TailwindCSS
+- Vercel (deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
