@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my projects, skills, and background as a software engineering student.
 
-Live: [portfolio-web-eta-two-43.vercel.app](https://portfolio-web-eta-two-43.vercel.app)
+Live: [https://portfolio-web-diegobanovacs-projects.vercel.app/](https://portfolio-web-diegobanovacs-projects.vercel.app/)
 
 ## About
 
