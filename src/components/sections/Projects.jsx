@@ -39,7 +39,11 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="w-16 h-0.5 bg-white/20 mb-10" />
+      <div className="w-16 h-0.5 bg-white/20 mb-6" />
+
+      <p className="text-gray-500 text-s mb-6">
+        Note: live demos with a backend may take a few seconds to load — free-tier servers spin down when idle.
+      </p>
 
       {/* HORIZONTAL SCROLL */}
       <div

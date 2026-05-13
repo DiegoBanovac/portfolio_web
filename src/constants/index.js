@@ -57,7 +57,7 @@ export const projects = [
     live: "https://diego-banovac.infinityfreeapp.com/index.php?i=1"
   },
   {
-    title: "Geo Chat",
+    title: "Geo Chat (CURRENTLY DEVELOPING)",
     desc: "Chat app with a geological guessing game.",
     image: "/geochat.png",
     tech: ["React", "Tailwind", "Express", "PostgreSQL"],
