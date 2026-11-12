@@ -57,19 +57,27 @@ export const projects = [
     live: "https://diego-banovac.infinityfreeapp.com/index.php?i=1"
   },
   {
-    title: "Geo Chat (CURRENTLY DEVELOPING)",
+    title: "Geo Chat",
     desc: "Chat app with a geological guessing game.",
     image: "/geochat.png",
     tech: ["React", "Tailwind", "Express", "PostgreSQL"],
     github: "https://github.com/DiegoBanovac/geo-chat",
-    live: "#"
+    live: "https://geo-chat-phi.vercel.app/"
   },
   {
-    title: "Kids game (CURRENTLY DEVELOPING)",
+    title: "Kids game",
     desc: "Game for kids with ADHD made for Vista ADHD center in Rijeka.",
     image: "/vista.webp",
     tech: ["Java"],
     github: "https://github.com/DiegoBanovac/kids-game",
+    live: "#"
+  },
+  {
+    title: "Mandates and work of committees.(IN PROGRESS)",
+    desc: "Development of a system for tracking the mandates and work of committees for University of Applied Sciences of Rijeka.",
+    image: "/veleri_0_0.jpg",
+    tech: ["Quasar", "Vue", "Express",],
+    github: "",
     live: "#"
   }
 ]
